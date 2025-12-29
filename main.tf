@@ -1,5 +1,5 @@
 resource "vault_mount" "component" {
-  path     = cart-dev
+  path     = "cart-dev"
   type     = "kv-v2"
   options = {
     version = "2"
